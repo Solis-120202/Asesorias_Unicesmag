@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>REGISTRAR ASIGNATURA</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="../../plantillas/colorlib-regform-22/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../../plantillas/colorlib-regform-22/css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="../../front/images/programas-educativos.png" alt="">
+				</div>
+				<form action="http://127.0.0.1/Asesorias_Unicesmag/back/src/crear_asignatura.php" method="post">
+					<h3>Registre una asignatura</h3>
+				
+					<div class="form-row">
+						<input type="text" class="form-control" name="a_name" required >
+						<div class="form-holder">
+							<select name="id_prog" class="form-control" required>
+								<option value=1 >Derecho</option>
+                                    <option value=2 >Psicologia</option>
+                                    <option value=3 >Administración de Empresas</option>
+                                    <option value=4" >Contaduría Pública</option>
+                                    <option value=5 >Tecnología en Gestión Financiera</option>
+                	                <option value=6 >Tecnología en Contabilidad y Finanzas</option>
+                                    <option value=7 >Profesionalización en Contaduría Pública</option>
+                                    <option value=8 >Profesionalización en Administración de Empresas</option>
+                                    <option value=9 >Ingeniería Electrónica</option>
+                                    <option value=10 >Ingeniería de Sistemas</option>
+                                    <option value=11 >Diseño Gráfico</option>
+                                    <option value=12 >Arquitectura</option>
+                                    <option value=13 >Licenciatura en Educación Física</option>
+                                    <option value=14 >Licenciatura en Educación Infantil</option>
+                                    <option value=15 >Licenciatura en Química</option>
+                                    <option value=16 >Licenciatura en Educación Preescolar</option>
+							</select>
+							<i class="zmdi zmdi-chevron-down"></i>
+						</div>
+					</div>
+			
+					<button> Registrar
+						<i class="zmdi zmdi-long-arrow-right"></i>
+					</button>
+					<button><a href="http://127.0.0.1/Asesorias_Unicesmag/front/src/home_coordinador.php">Cancelar<i class="zmdi zmdi-long-arrow-right"></i></a>
+					</button>
+				</form>
+				
+			</div>
+		</div>
+
+		<script src="../../plantillas/colorlib-regform-22/js/jquery-3.3.1.min.js"></script>
+		<script src="../../plantillas/colorlib-regform-22/js/main.js"></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
